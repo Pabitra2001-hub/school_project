@@ -1,0 +1,33 @@
+{%extends 'base.html' %}
+{%load static%}
+    {%block style%}
+<link rel="stylesheet" href="{%static 'attnd.css'%}">
+    {%endblock %}
+
+
+{% block form %}
+<div class="container">
+  <h2 class="font-weight-bolder">Attendance Form</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Name:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Name" name="email">
+    </div>
+    <div class="form-group">
+      <label for="roll">Roll No:</label>
+      <input type="number" class="form-control" id="roll" placeholder="Enter Roll No." name="roll">
+    </div>
+     <div class="form-group">
+      <label for="cls">class:</label>
+      <input type="number" class="form-control" id="cls" placeholder="Enter Your Class" name="class">
+    </div>
+    <div class="text-center">
+         <button type="submit" class="btn btn-danger subm">Submit</button>
+    </div>
+
+  </form>
+</div>
+{% endblock %}
+
+
+

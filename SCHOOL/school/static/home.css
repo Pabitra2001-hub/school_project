@@ -1,0 +1,77 @@
+.container{
+    margin-top: 4.6rem;
+}
+.h2, h2 {
+    font-size: 2.5rem;
+    margin-top: 1.3rem;
+    text-align: center;
+}
+p {
+    margin-bottom: 1rem;
+    TEXT-ALIGN: center;
+    MARGIN-TOP: 1.5rem;
+}
+.w-100 {
+    width: 130rem;
+    height: 40rem;
+}
+.h3, h3 {
+    font-size: 1.75rem;
+    COLOR: RED;
+}
+.h4, h4 {
+    font-size: 1.5rem;
+    color: darkblue;
+}
+        /*testamonials*/
+/*head,*/
+
+.testa{
+    background-color: #13d6d6;
+
+}
+
+.card {
+    cursor: pointer
+}
+
+
+
+.card.hover,
+.card:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .2)
+}
+
+.img {
+    margin-bottom: 35px;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222)
+}
+
+.card-title {
+    font-weight: 600
+}
+
+button.focus,
+button:focus {
+    outline: 0;
+    box-shadow: none !important
+}
+
+
+.rck {
+    margin-top: 20px;
+    padding-bottom: 15px
+}
+.ft {
+    margin-top: 25px
+}
+
+.chk {
+    margin-bottom: 5px
+}
+.hd {
+    font-size: 31px;
+    font-weight: 550;
+    margin-top: 5rem; !important;
+}
